@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>ico图标在线制作,favicon图标制作</title>
+<meta name="keywords" content="" />
+<meta name="description" content=""/>
+
+<style>
+h4,h5 {margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;color:var(--bs-heading-color,inherit)}
+h4 {font-size:calc(1.275rem + .3vw)}
+@media (min-width:1200px) {h4 {font-size:1.5rem}
+}
+h5 {font-size:1.25rem}
+p {margin-top:0;margin-bottom:1rem}
+small {font-size:.875em}
+img {vertical-align:middle}
+label {display:inline-block}
+button {border-radius:0}
+button:focus:not(:focus-visible) {outline:0}
+button,input {margin:0;font-family:inherit;font-size:inherit;line-height:inherit}
+button {text-transform:none}
+button {-webkit-appearance:button}
+.form-label {margin-bottom:.5rem}
+.form-control[type=file]:not(:disabled):not([readonly]) {cursor:pointer}
+.form-control::file-selector-button {padding:.375rem .75rem;margin:-.375rem -.75rem;-webkit-margin-end:.75rem;margin-inline-end:.75rem;color:var(--bs-body-color);background-color:var(--bs-tertiary-bg);pointer-events:none;border-color:inherit;border-style:solid;border-width:0;border-inline-end-width:var(--bs-border-width);border-radius:0;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+@media (prefers-reduced-motion:reduce) {.form-control::file-selector-button {transition:none}
+}
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {background-color:var(--bs-secondary-bg)}
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {background-color:var(--bs-secondary-bg)}
+.form-control-sm::file-selector-button {padding:.25rem .5rem;margin:-.25rem -.5rem;-webkit-margin-end:.5rem;margin-inline-end:.5rem}
+.form-control-lg::file-selector-button {padding:.5rem 1rem;margin:-.5rem -1rem;-webkit-margin-end:1rem;margin-inline-end:1rem}
+.form-control-color:not(:disabled):not([readonly]) {cursor:pointer}
+[data-bs-theme=dark] .form-switch .form-check-input:not(:checked):not(:focus) {--bs-form-switch-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255,255,255,0.25%29'/%3e%3c/svg%3e")}
+.form-floating>.form-control-plaintext:not(:-moz-placeholder-shown),.form-floating>.form-control:not(:-moz-placeholder-shown) {padding-top:1.625rem;padding-bottom:.625rem}
+.form-floating>.form-control:not(:-moz-placeholder-shown)~label {opacity:.65;transform:scale(.85) translateY(-.5rem) translateX(.15rem)}
+.input-group>.form-control:not(:focus).is-valid,.input-group>.form-floating:not(:focus-within).is-valid,.input-group>.form-select:not(:focus).is-valid,.was-validated .input-group>.form-control:not(:focus):valid,.was-validated .input-group>.form-floating:not(:focus-within):valid,.was-validated .input-group>.form-select:not(:focus):valid {z-index:3}
+.input-group>.form-control:not(:focus).is-invalid,.input-group>.form-floating:not(:focus-within).is-invalid,.input-group>.form-select:not(:focus).is-invalid,.was-validated .input-group>.form-control:not(:focus):invalid,.was-validated .input-group>.form-floating:not(:focus-within):invalid,.was-validated .input-group>.form-select:not(:focus):invalid {z-index:4}
+.btn {--bs-btn-padding-x:0.75rem;--bs-btn-padding-y:0.375rem;--bs-btn-font-family:;--bs-btn-font-size:1rem;--bs-btn-font-weight:400;--bs-btn-line-height:1.5;--bs-btn-color:#212529;--bs-btn-bg:transparent;--bs-btn-border-width:var(--bs-border-width);--bs-btn-border-color:transparent;--bs-btn-border-radius:0.375rem;--bs-btn-hover-border-color:transparent;--bs-btn-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);--bs-btn-disabled-opacity:0.65;--bs-btn-focus-box-shadow:0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb),.5);display:inline-block;padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);color:var(--bs-btn-color);text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);background-color:var(--bs-btn-bg);transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+@media (prefers-reduced-motion:reduce) {.btn {transition:none}
+}
+.btn:hover {color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color)}
+.btn:focus-visible {color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);outline:0;box-shadow:var(--bs-btn-focus-box-shadow)}
+.btn-check:focus-visible+.btn {border-color:var(--bs-btn-hover-border-color);outline:0;box-shadow:var(--bs-btn-focus-box-shadow)}
+.btn:first-child:active,:not(.btn-check)+.btn:active {color:var(--bs-btn-active-color);background-color:var(--bs-btn-active-bg);border-color:var(--bs-btn-active-border-color)}
+.btn-check:checked+.btn:focus-visible,.btn.active:focus-visible,.btn.show:focus-visible,.btn:first-child:active:focus-visible,:not(.btn-check)+.btn:active:focus-visible {box-shadow:var(--bs-btn-focus-box-shadow)}
+.btn:disabled {color:var(--bs-btn-disabled-color);pointer-events:none;background-color:var(--bs-btn-disabled-bg);border-color:var(--bs-btn-disabled-border-color);opacity:var(--bs-btn-disabled-opacity)}
+.btn-success {--bs-btn-color:#fff;--bs-btn-bg:#198754;--bs-btn-border-color:#198754;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#157347;--bs-btn-hover-border-color:#146c43;--bs-btn-focus-shadow-rgb:60,153,110;--bs-btn-active-color:#fff;--bs-btn-active-bg:#146c43;--bs-btn-active-border-color:#13653f;--bs-btn-active-shadow:inset 0 3px 5px rgba(0,0,0,0.125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#198754;--bs-btn-disabled-border-color:#198754}
+.btn-warning {--bs-btn-color:#000;--bs-btn-bg:#ffc107;--bs-btn-border-color:#ffc107;--bs-btn-hover-color:#000;--bs-btn-hover-bg:#ffca2c;--bs-btn-hover-border-color:#ffc720;--bs-btn-focus-shadow-rgb:217,164,6;--bs-btn-active-color:#000;--bs-btn-active-bg:#ffcd39;--bs-btn-active-border-color:#ffc720;--bs-btn-active-shadow:inset 0 3px 5px rgba(0,0,0,0.125);--bs-btn-disabled-color:#000;--bs-btn-disabled-bg:#ffc107;--bs-btn-disabled-border-color:#ffc107}
+.btn-link:focus-visible {color:var(--bs-btn-color)}
+@keyframes progress-bar-stripes {0% {background-position-x:1rem}
+}
+.progress {--bs-progress-height:1rem;--bs-progress-font-size:0.75rem;--bs-progress-bg:var(--bs-secondary-bg);--bs-progress-border-radius:var(--bs-border-radius);--bs-progress-box-shadow:var(--bs-box-shadow-inset);--bs-progress-bar-color:#fff;--bs-progress-bar-bg:#0d6efd;--bs-progress-bar-transition:width 0.6s ease;display:flex;height:var(--bs-progress-height);overflow:hidden;font-size:var(--bs-progress-font-size);background-color:var(--bs-progress-bg);border-radius:var(--bs-progress-border-radius)}
+.progress-bar {display:flex;flex-direction:column;justify-content:center;overflow:hidden;color:var(--bs-progress-bar-color);text-align:center;white-space:nowrap;background-color:var(--bs-progress-bar-bg);transition:var(--bs-progress-bar-transition)}
+@media (prefers-reduced-motion:reduce) {.progress-bar {transition:none}
+}
+.progress-bar-striped {background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size:var(--bs-progress-height) var(--bs-progress-height)}
+.progress-bar-animated {animation:1s linear infinite progress-bar-stripes}
+@media (prefers-reduced-motion:reduce) {.progress-bar-animated {animation:none}
+}
+.visually-hidden-focusable:not(:focus):not(:focus-within) {position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.d-flex {display:flex!important}
+.w-100 {width:100%!important}
+.flex-wrap {flex-wrap:wrap!important}
+.mt-2 {margin-top:.5rem!important}
+.mt-3 {margin-top:1rem!important}
+.me-2 {margin-right:.5rem!important}
+.mb-4 {margin-bottom:1.5rem!important}
+.py-3 {padding-top:1rem!important;padding-bottom:1rem!important}
+.fw-bold {font-weight:700!important}
+.text-center {text-align:center!important}
+.text-success {--bs-text-opacity:1;color:rgba(var(--bs-success-rgb),var(--bs-text-opacity))!important}
+.text-muted {--bs-text-opacity:1;color:var(--bs-secondary-color)!important}
+
+.file-input-wrapper {position:relative;overflow:hidden;display:inline-block;width:100%;}
+.file-input-wrapper input[type=file] {position:absolute;left:0;top:0;opacity:0;width:100%;height:100%;cursor:pointer;}
+.preview-container {text-align:center;margin:20px 0;display:none;}
+.preview-image {max-width:200px;max-height:200px;border:1px dashed #ccc;border-radius:5px;padding:5px;}
+.dimension-option {margin:5px;}
+.dimension-option input[type="radio"] {display:none;}
+.dimension-option label {cursor:pointer;padding:8px 15px;border:2px solid #dee2e6;border-radius:5px;transition:all 0.3s;}
+.dimension-option input[type="radio"]:checked + label {background-color:#0d6efd;color:white;border-color:#0d6efd;}
+.btn-generate {background:linear-gradient(135deg,#6a11cb 0%,#2575fc 100%);border:none;padding:10px 30px;font-size:18px;border-radius:50px;transition:all 0.3s;}
+.btn-generate:hover {transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,0.2);}
+.result-container {display:none;margin-top:30px;text-align:center;padding:20px;border-radius:10px;background-color:#f0f8ff;}
+</style>
+</head>
+<body>
+<header id="header"></header>
+<main class="tb-container">
+
+<section class="nk-content nk-content-fluid">
+<div class="card card-preview category-card">
+<div class="card-inner">
+   <div class="nya-title nk-ibx-action-item progress-rating"><span class="nk-menu-text font-weight-bold">在线制作ico图标</span></div>
+<section class="container">
+
+<div class="panel">
+
+<div class="mb-4">
+    <div class="file-input-wrapper">
+        <button class="btn btn-warning w-100 py-3">
+            <i class="fa fa-folder-open me-2"></i>选择图片...
+        </button>
+        <input type="file" id="imageUpload" accept="image/*">
+    </div>
+    <div id="fileInfo" class="mt-2 text-muted"></div>
+    <div class="progress" id="progressBar" style="display: none;">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+    </div>
+</div>
+
+<div class="preview-container" id="previewContainer">
+    <h5>图片预览</h5>
+    <img id="previewImage" class="preview-image" src="" alt="预览图片">
+</div>
+
+<div class="form-group mb-4">
+    <label class="form-label fw-bold">目标尺寸：</label>
+    <div class="d-flex flex-wrap">
+        <div class="dimension-option">
+            <input type="radio" id="size16" name="image_dimensions" value="16">
+            <label for="size16">16 x 16</label>
+        </div>
+        <div class="dimension-option">
+            <input type="radio" id="size32" name="image_dimensions" value="32" checked>
+            <label for="size32">32 x 32</label>
+        </div>
+        <div class="dimension-option">
+            <input type="radio" id="size48" name="image_dimensions" value="48">
+            <label for="size48">48 x 48</label>
+        </div>
+        <div class="dimension-option">
+            <input type="radio" id="size64" name="image_dimensions" value="64">
+            <label for="size64">64 x 64</label>
+        </div>
+        <div class="dimension-option">
+            <input type="radio" id="size128" name="image_dimensions" value="128">
+            <label for="size128">128 x 128</label>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <button id="generateBtn" class="btn btn-warning" disabled>
+        <i class="fa fa-magic me-2"></i>生成ICO图标
+    </button>
+</div>
+
+<div class="result-container" id="resultContainer">
+    <h4><i class="fa fa-check-circle text-success me-2"></i>完成!</h4>
+    <p>您的ICO图标已生成成功，点击下方按钮下载</p>
+    <a id="downloadLink" class="btn btn-success mt-2">
+        <i class="fa fa-download me-2"></i>下载ICO图标
+    </a>
+    <div class="mt-3">
+        <small class="text-muted">下载后请将文件重命名为 favicon.ico 并上传到您的网站根目录</small>
+    </div>
+</div>
+
+</div>
+
+<div id="tui"></div>
+</section>
+</div>
+</div>
+</section>
+<footer id="footer"></footer>
+</main>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const imageUpload = document.getElementById('imageUpload');
+            const fileInfo = document.getElementById('fileInfo');
+            const previewContainer = document.getElementById('previewContainer');
+            const previewImage = document.getElementById('previewImage');
+            const generateBtn = document.getElementById('generateBtn');
+            const resultContainer = document.getElementById('resultContainer');
+            const downloadLink = document.getElementById('downloadLink');
+            const progressBar = document.getElementById('progressBar');
+            const progressBarInner = progressBar.querySelector('.progress-bar');
+            
+            // ICO文件头结构
+            class ICOGenerator {
+                constructor() {
+                    this.images = [];
+                }
+                
+                addImage(canvas) {
+                    this.images.push(canvas);
+                }
+                
+                generate() {
+                    // ICO文件结构:
+                    // 1. ICO文件头 (6字节)
+                    // 2. 图标目录项 (每个16字节)
+                    // 3. 图标数据
+                    
+                    const headerSize = 6;
+                    const directoryEntrySize = 16;
+                    let offset = headerSize + (this.images.length * directoryEntrySize);
+                    
+                    // 创建ICO文件头
+                    const header = new ArrayBuffer(headerSize);
+                    const headerView = new DataView(header);
+                    headerView.setUint16(0, 0, true); // 保留字段，必须为0
+                    headerView.setUint16(2, 1, true); // 图标类型，1为ICO
+                    headerView.setUint16(4, this.images.length, true); // 图标数量
+                    
+                    // 创建目录项和数据
+                    const directories = [];
+                    const imageData = [];
+                    
+                    for (let i = 0; i < this.images.length; i++) {
+                        const canvas = this.images[i];
+                        const size = canvas.width;
+                        
+                        // 将canvas转换为PNG
+                        const pngData = this.canvasToPNG(canvas);
+                        
+                        // 创建目录项
+                        const directory = new ArrayBuffer(directoryEntrySize);
+                        const directoryView = new DataView(directory);
+                        
+                        directoryView.setUint8(0, size === 256 ? 0 : size); // 宽度
+                        directoryView.setUint8(1, size === 256 ? 0 : size); // 高度
+                        directoryView.setUint8(2, 0); // 颜色数 (0表示超过256色)
+                        directoryView.setUint8(3, 0); // 保留字段
+                        directoryView.setUint16(4, 1, true); // 颜色平面数
+                        directoryView.setUint16(6, 32, true); // 每像素位数
+                        directoryView.setUint32(8, pngData.length, true); // 图像数据大小
+                        directoryView.setUint32(12, offset, true); // 图像数据偏移量
+                        
+                        directories.push(directory);
+                        imageData.push(pngData);
+                        
+                        offset += pngData.length;
+                    }
+                    
+                    // 合并所有数据
+                    let totalSize = header.byteLength;
+                    directories.forEach(dir => totalSize += dir.byteLength);
+                    imageData.forEach(img => totalSize += img.length);
+                    
+                    const icoData = new Uint8Array(totalSize);
+                    let currentOffset = 0;
+                    
+                    // 添加文件头
+                    icoData.set(new Uint8Array(header), currentOffset);
+                    currentOffset += header.byteLength;
+                    
+                    // 添加目录项
+                    directories.forEach(dir => {
+                        icoData.set(new Uint8Array(dir), currentOffset);
+                        currentOffset += dir.byteLength;
+                    });
+                    
+                    // 添加图像数据
+                    imageData.forEach(img => {
+                        icoData.set(img, currentOffset);
+                        currentOffset += img.length;
+                    });
+                    
+                    return icoData;
+                }
+                
+                canvasToPNG(canvas) {
+                    // 将canvas转换为PNG格式的Uint8Array
+                    const dataURL = canvas.toDataURL('image/png');
+                    const binary = atob(dataURL.split(',')[1]);
+                    const array = new Uint8Array(binary.length);
+                    for (let i = 0; i < binary.length; i++) {
+                        array[i] = binary.charCodeAt(i);
+                    }
+                    return array;
+                }
+            }
+            
+            // 文件选择事件
+            imageUpload.addEventListener('change', function(e) {
+                if (this.files && this.files[0]) {
+                    const file = this.files[0];
+                    const fileName = file.name;
+                    const fileSize = (file.size / 1024).toFixed(2);
+                    
+                    // 显示文件信息
+                    fileInfo.innerHTML = `已选择: ${fileName} (${fileSize} KB)`;
+                    
+                    // 显示加载进度
+                    progressBar.style.display = 'block';
+                    progressBarInner.style.width = '30%';
+                    
+                    // 显示图片预览
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        previewImage.src = e.target.result;
+                        previewContainer.style.display = 'block';
+                        progressBarInner.style.width = '100%';
+                        
+                        setTimeout(() => {
+                            progressBar.style.display = 'none';
+                        }, 500);
+                    };
+                    reader.readAsDataURL(file);
+                    
+                    // 启用生成按钮
+                    generateBtn.disabled = false;
+                }
+            });
+            
+            // 生成ICO图标
+            generateBtn.addEventListener('click', function() {
+                if (!imageUpload.files || !imageUpload.files[0]) {
+                    alert('请先选择一张图片！');
+                    return;
+                }
+                
+                const selectedSize = document.querySelector('input[name="image_dimensions"]:checked').value;
+                const file = imageUpload.files[0];
+                
+                // 显示加载状态
+                generateBtn.innerHTML = '<i class="fa fa-spinner fa-spin me-2"></i>生成中...';
+                generateBtn.disabled = true;
+                progressBar.style.display = 'block';
+                progressBarInner.style.width = '30%';
+                
+                // 创建图片元素
+                const img = new Image();
+                img.onload = function() {
+                    progressBarInner.style.width = '60%';
+                    
+                    // 创建Canvas并调整尺寸
+                    const canvas = document.createElement('canvas');
+                    const size = parseInt(selectedSize);
+                    canvas.width = size;
+                    canvas.height = size;
+                    
+                    const ctx = canvas.getContext('2d');
+                    
+                    // 绘制图像（保持比例，居中显示）
+                    const scale = Math.min(canvas.width / img.width, canvas.height / img.height);
+                    const x = (canvas.width - img.width * scale) / 2;
+                    const y = (canvas.height - img.height * scale) / 2;
+                    
+                    ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
+                    
+                    progressBarInner.style.width = '80%';
+                    
+                    // 生成ICO
+                    const icoGenerator = new ICOGenerator();
+                    icoGenerator.addImage(canvas);
+                    const icoData = icoGenerator.generate();
+                    
+                    // 创建下载链接
+                    const blob = new Blob([icoData], {type: 'image/x-icon'});
+                    const url = URL.createObjectURL(blob);
+                    
+                    downloadLink.href = url;
+                    downloadLink.download = `favicon-${selectedSize}x${selectedSize}.ico`;
+                    
+                    // 显示结果
+                    resultContainer.style.display = 'block';
+                    progressBarInner.style.width = '100%';
+                    
+                    // 恢复按钮状态
+                    generateBtn.innerHTML = '<i class="fa fa-magic me-2"></i>生成ICO图标';
+                    generateBtn.disabled = false;
+                    
+                    setTimeout(() => {
+                        progressBar.style.display = 'none';
+                    }, 500);
+                    
+                    // 滚动到结果区域
+                    resultContainer.scrollIntoView({ behavior: 'smooth' });
+                };
+                
+                img.src = URL.createObjectURL(file);
+            });
+        });
+    </script>
+</body>
+</html>
