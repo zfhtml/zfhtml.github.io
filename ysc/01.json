@@ -407,10 +407,31 @@
 {"key":"养生堂","name":"养生｜知识","type":3,"api":"csp_XBPQ","ext":"./XBPQ/养生堂.json","style":{"type":"rect","ratio":1.597}},
 
 
+
+{"key":"央视大全","name":"[央]🔹大全","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js1/央视大全[央].js"},
+{"key":"央视新闻","name":"[央]🔹新闻","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js1/央视新闻[央].js"},
+{"key":"央视综合","name":"[央]🔹综合","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js1/央视综合[央].js"},
+{"key":"央视少儿","name":"[央]🔹少儿","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js1/央视少儿[央].js"},
+
+
+{"key":"戏曲[官]","name":"戏曲[官]","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./js1/戏曲[官].js"},
+{"key":"虎[官]","name":"虎牙","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./js1/虎[官].js","style":{"type":"rect","ratio":1.597}},
+{"key":"斗[官]","name":"斗鱼","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./js1/斗[官].js","style":{"type":"rect","ratio":1.597}},
+{"key":"K[官]","name":"K[官]","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./js1/ktv.js","style":{"type":"rect","ratio":1.597}},
+
+
+
+
+
+
+
+{"key":"MV大全","name":"KTV┃音乐","type":4,"api":"http://120.53.102.254/dsp/","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"AList","name":"AList｜合集","type":3,"api":"csp_Alist","searchable":1,"filterable":1,"changeable":0,"style":{"type":"list"},"ext":"./set/alist.json"},
 {"key":"采集之王","name":"采集｜合集","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./set/采集之王.js?type=url&params=../set/采集静态.json$1$1"},
-
-
+//{"key":"直播转点播","name":"📺直播转点播","type":3,"api":"./drpy_libs/drpy2.min.js","jar": "./jar/zb.jar","ext":"./set/直播转点播.js?type=url&params=../set/直播转点播.json"},
+{"key":"Local","name":"文件｜浏览","type":3,"api":"csp_Local","searchable":0,"jar":"./jar/U盘.jar;md5;997f5632c275dec5804d8fc1ac5928f3","changeable":0},
+{"key":"直播转点播","name":"📺直播转点播","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./set/直播转点播.js?type=url&params=../set/直播转点播.json"},
 {"key":"版本信息","name":"版本｜信息","type":3,"api":"csp_Market","searchable":0,"changeable":0,"indexs":0,"ext":"./set/应用商店.json"},
 {"key":"push_agent","name":"手机｜推送","type":3,"api":"csp_Push","searchable":0,"filterable":0,"changeable":0}        
     
