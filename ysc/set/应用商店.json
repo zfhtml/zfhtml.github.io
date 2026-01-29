@@ -1,0 +1,40 @@
+[
+  {
+    "name": "推荐",
+    "list": [
+      {
+        "name": "澹泊明志,宁静致远",
+        "url": "../img/logo.png",
+        "icon": "../img/logo.png",
+        "version": ""
+      },
+      {
+        "name": "澹泊明志,宁静致远",
+        "url": "../img/logo.png",
+        "icon": "../img/logo.png",
+        "version123": ""
+      }
+    ]
+  },
+  
+  {
+    "name": "应用商店",
+    "list": [
+      {
+        "name": "应用商店01",
+        "url": "../img/logo.png",
+        "icon": "../img/logo.png",
+        "version": "暂无"
+      },
+      {
+        "name": "应用商店02",
+        "url": "https://zfhtml.github.io/ysc.zip",
+        "icon": "https://zf-dbmz.neocities.org/img/tvlogo.png",
+        "version": "暂无"
+      }
+      
+      
+     
+    ]
+  }
+]
