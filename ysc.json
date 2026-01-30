@@ -1,12 +1,7 @@
 {
   "urls": [
-   {"url":"https://zfhtml.github.io/ysc/01.json","name":"ZFHTML"},
-   { "url": "https://zf-dbmz.neocities.org/dbmz/01.json","name": "澹泊明志" },
-    
-    {
-      "url": "https://zf-dbmz.neocities.org/tv/01.json",
-      "name": "澹泊明志·宁静致远01"
-    },
+  {"name":"ZFHTML","url":"https://zfhtml.github.io/ysc/01.json"},
+
     
 
 
@@ -80,4 +75,5 @@
   ]
 
 }
+
 
