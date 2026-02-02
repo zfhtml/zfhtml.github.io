@@ -1,6 +1,6 @@
 {
   "urls": [
-     {"name":"neocities","url":"https://zf-html.neocities.org/tv/tv.json"},
+     {"name":"neocities","url":"https://zf-html.neocities.org/tv2/01.json"},
      {"name":"ZFHTML","url":"https://zfhtml.github.io/ysc/01.json"},
    
 
@@ -77,6 +77,7 @@
   ]
 
 }
+
 
 
 
