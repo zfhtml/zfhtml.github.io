@@ -23,7 +23,7 @@
       {
         "name": "应用商店01",
         "url": "../img/logo.png",
-        "icon": "../img/logo.png",
+        "icon": "https://zfhtml.github.io/img/logo.png",
         "version": "暂无"
       },
       {
@@ -37,4 +37,5 @@
      
     ]
   }
+
 ]
