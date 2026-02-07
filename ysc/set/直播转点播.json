@@ -2,18 +2,19 @@
 
     {
       "name": "直播01",
-      "url": "https://zf-dbmz.neocities.org/live/live.json",
-      "img": "https://zfhtml.github.io/img/logo.png"
+      "url": "https://zfhtml.github.io/live/live.json",
+      "img": "https://zfhtml.github.io/img/五星红旗.jpg"
     },
      
     
     {
       "name": "电视台02",
       "url": "https://develop202.github.io/migu_video/interface.txt",
-      "img": "../img/电视直播.png"
+      "img": "https://zfhtml.github.io/img/电视直播.png"
     }
 
   ]
+
 
 
 
